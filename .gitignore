@@ -1,0 +1,22 @@
+# Mac OS
+.DS_Store
+
+# Editors
+.vs/
+.vscode/
+.devcontainer/
+*.un~
+
+# CMake User Preset
+CMakeUserPresets.json
+
+# Build directories
+build/
+
+# Cmake exceptions
+CMakeFiles/
+
+# cppdepend output
+CppDependOut/
+*.cdproj
+
