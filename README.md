@@ -2,7 +2,7 @@
 **MLClusters** is an upcoming open-source machine learning clustering library, designed to enhance KMeans, KNN, and predictive clustering with advanced capabilities.  
 
 ## 🔍 About  
-MLClusters is a **fork of Khiops Enneade**, an older clustering tool from the Khiops suite.  
+MLClusters is a **fork of [Khiops Enneade](https://github.com/KhiopsML/enneade)**, an older clustering tool from the Khiops suite.  
 - The **original Enneade** is no longer maintained by the Khiops team.  
 - It was based on an **older version of the Khiops library**.  
 
