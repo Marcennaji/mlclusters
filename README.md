@@ -18,7 +18,7 @@ MLClusters aims to **modernize and enhance** Enneade by:
 - 🔹 Seamless integration with modern ML workflows.  
 
 ## 🚧 Status: Under Development  
-This project is currently in development with **a major refactor and improvements**. Stay tuned for updates!  
+This project is currently in development. Stay tuned for updates!  
 
 ## 📅 Roadmap  
 - ✅ Secure project name & repository.  
