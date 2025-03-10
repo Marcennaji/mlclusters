@@ -23,8 +23,7 @@ This project is currently in development with **a major refactor and improvement
 ## 📅 Roadmap  
 - ✅ Secure project name & repository.  
 - 🔄 Update to the latest **Khiops library** version.  
-- 🛠 Improve design, code and tests
-- 📖 Write documentation & examples.  
+- 🛠 Migrate UI from java to C++ Qt
 - 🚀 Public release (TBD).  
 
 ## 🤝 Contributing  
