@@ -20,3 +20,7 @@ CMakeFiles/
 CppDependOut/
 *.cdproj
 
+*.exe
+*.log
+assets/
+

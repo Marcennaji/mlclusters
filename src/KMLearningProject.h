@@ -4,8 +4,8 @@
 
 #pragma once
 
-#define VERSION_FULL "10.1.0"
-#define INTERNAL_VERSION "10.1.0.0_i1"
+#define VERSION_FULL "10.7.0"
+#define INTERNAL_VERSION "10.7.0.0_i1"
 
 #include "KWLearningProject.h"
 #include "KMLearningProblem.h"

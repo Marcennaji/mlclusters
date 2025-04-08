@@ -20,9 +20,6 @@ KMModelingSpecView::KMModelingSpecView()
 	AddIntField(KMParametersView::K_FIELD_NAME, KMParametersView::K_LABEL, KMParameters::K_DEFAULT_VALUE);
 	GetFieldAt(KMParametersView::K_FIELD_NAME)->SetStyle("Spinner");
 
-	GetFieldAt("BaselinePredictor")->SetVisible(false);
-	GetFieldAt("UnivariatePredictorNumber")->SetVisible(false);
-
 	cast(UIIntElement*, GetFieldAt(KMParametersView::K_FIELD_NAME))->SetMinValue(1);
 	cast(UIIntElement*, GetFieldAt(KMParametersView::K_FIELD_NAME))->SetMaxValue(KMParameters::K_MAX_VALUE);
 

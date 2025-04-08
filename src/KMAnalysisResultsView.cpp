@@ -10,12 +10,6 @@ KMAnalysisResultsView::KMAnalysisResultsView()
     SetIdentifier("KMAnalysisResults");
     SetLabel("Analysis results");
 
-	GetFieldAt("ModelingFileName")->SetLabel("Modeling report for clusters");
-
-	GetFieldAt("Preparation2DFileName")->SetVisible(false);
-	GetFieldAt("VisualizationFileName")->SetVisible(false);
-	SetStringValueAt("VisualizationFileName", "");
-	SetStringValueAt("Preparation2DFileName", "");
 }
 
 
