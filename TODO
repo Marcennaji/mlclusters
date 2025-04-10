@@ -1,0 +1,6 @@
+- Installer for Windows 
+- Unit tests implementation  
+- CI, with SonarQube and Cppdepend automatic static analysis
+- Code refactoring, design improvements 
+- python API (scikitlearn-like)
+- Installers for other platforms
