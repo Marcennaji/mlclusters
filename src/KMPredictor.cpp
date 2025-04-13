@@ -132,7 +132,7 @@ boolean KMPredictor::InternalTrain()
 	Global::SetSilentMode(false);
 
 	if (parameters->GetVerboseMode())
-		AddSimpleMessage("Khiops Enneade internal version is " + ALString(INTERNAL_VERSION));
+		AddSimpleMessage("MLClusters internal version is " + ALString(INTERNAL_VERSION));
 
 	// nettoyer les eventuels metadatas specifiques kmean qui pourraient �tre pr�sents dans le dico d'input
 	GetClass()->RemoveAllAttributesMetaDataKey(KMParameters::SELECTED_NATIVE_ATTRIBUTE_LABEL);
@@ -1291,7 +1291,7 @@ KWSTDatabaseTextFile* KMPredictor::CreateLocalModelDatabaseFromCluster(KMCluster
 
 	KWSTDatabaseTextFile* dbTarget = new KWSTDatabaseTextFile;
 	dbTarget->SetClassName(localModelClass->GetName());
-	const ALString targetDatabaseFileName = FileService::CreateTmpFile("KhiopsEnneade_" + cluster->GetLabel(), this);
+	const ALString targetDatabaseFileName = FileService::CreateTmpFile("MLClusters_" + cluster->GetLabel(), this);
 	dbTarget->SetDatabaseName(targetDatabaseFileName);
 
 	if (not dbTarget->OpenForWrite()) {
@@ -2742,7 +2742,7 @@ boolean KMPredictor::HasSufficientMemoryForTraining(KWDataPreparationClass* data
 		AddWarning(ALString(ss.str().c_str()));
 
 #ifdef WIN32
-		AddMessage("For higher memory ressources, you may try to use the 64 bits version of Enneade.");
+		AddMessage("For higher memory ressources, you may try to use the 64 bits version of MLClusters.");
 #endif
 	}
 

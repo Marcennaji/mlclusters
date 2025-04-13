@@ -166,7 +166,7 @@ void KMLearningProblem::ComputeStats()
 	//////////////////////////////////////////////////////////////////////////////////////////////
 	// Calcul des statistiques et ecriture des rapports
 
-	// si on utilise un predicteur KMean ou KNN, le preciser a l'objet classStats, en lui transmettant le parametrage de clustering --> necessaire pour gerer les libelles specifiques Enneade des pretraitements
+	// si on utilise un predicteur KMean ou KNN, le preciser a l'objet classStats, en lui transmettant le parametrage de clustering --> necessaire pour gerer les libelles specifiques MLClusters des pretraitements
 	modelingSpec->GetClusteringPredictor()->GetKMParameters()->SetSupervisedMode(GetTargetAttributeName() == "" ? false : true);
 	classStats->SetKMParameters(modelingSpec->GetClusteringPredictor()->GetKMParameters());
 

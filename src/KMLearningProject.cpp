@@ -35,9 +35,9 @@ void KMLearningProject::OpenLearningEnvironnement()
 	UIObject::SetIconImage("enneade.gif");
 
 	SetLearningApplicationName("Khiops");
-	SetLearningModuleName("Enneade");
+	SetLearningModuleName("MLClusters");
 
-	// enregistrements specifiques Enneade
+	// enregistrements specifiques MLClusters
 
 	KMDRRegisterAllRules(); // regles de derivation
 	KWPredictor::RegisterPredictor(new KMPredictor);

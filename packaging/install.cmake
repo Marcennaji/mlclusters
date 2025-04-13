@@ -190,7 +190,7 @@ else(UNIX)
     set(GUI_STATUS "true")
   endif()
 
-  configure_file(${PROJECT_SOURCE_DIR}/packaging/windows/khiops_env.cmd.in ${TMP_DIR}/khiops_env.cmd @ONLY
+  configure_file(${PROJECT_SOURCE_DIR}/packaging/windows/mlclusters_env.cmd.in ${TMP_DIR}/mlclusters_env.cmd @ONLY
                  NEWLINE_STYLE CRLF)
 
 endif(UNIX)

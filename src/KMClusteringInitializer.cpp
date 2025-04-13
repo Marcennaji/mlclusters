@@ -1013,7 +1013,7 @@ KWDatabase* KMClusteringInitializer::CreateDatabaseFromInstances(const ObjectArr
 
 	KWSTDatabaseTextFile* database = new KWSTDatabaseTextFile;
 	database->SetClassName(kwo->GetClass()->GetName());
-	const ALString databaseFileName = FileService::CreateTmpFile("KhiopsEnneade_randomDatabase.txt", this);
+	const ALString databaseFileName = FileService::CreateTmpFile("MLClusters_randomDatabase.txt", this);
 	database->SetDatabaseName(databaseFileName);
 
 	if (not database->OpenForWrite()) {

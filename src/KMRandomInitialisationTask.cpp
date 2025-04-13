@@ -295,7 +295,7 @@ boolean KMRandomInitialisationTask::IsDuplicateCenter(const ContinuousVector* cv
 
 const ALString KMRandomInitialisationTask::GetTaskName() const
 {
-	return "Enneade clusters random initialization";
+	return "MLClusters clusters random initialization";
 }
 
 PLParallelTask* KMRandomInitialisationTask::Create() const

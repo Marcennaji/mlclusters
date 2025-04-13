@@ -69,7 +69,7 @@ void KMClassStats::WriteReport(ostream& ost)
 	ost << "Database\t" << GetDatabase()->GetDatabaseName() << "\n";
 	ost << "Instances" << "\t" << GetInstanceNumber() << "\n";
 
-	// Type de tâche d'apprentissage effectué
+	// Type de tï¿½che d'apprentissage effectuï¿½
 	ost << "\nLearning task";
 
 	// Cas ou l'attribut cible n'est pas renseigne
@@ -139,7 +139,7 @@ void KMClassStats::WriteReport(ostream& ost)
 	}
 
 
-	// Algorithme utilises : ecraser les libelles Khiops des pre-traitements, par les libelles des pretraitements specifiques Enneade
+	// Algorithme utilises : ecraser les libelles Khiops des pre-traitements, par les libelles des pretraitements specifiques MLClusters
 	if (GetWriteOptionStats1D())
 	{
 		ost << "\n";

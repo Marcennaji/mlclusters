@@ -99,7 +99,7 @@ void KMModelingSpecView::EventRefresh(Object* object)
 
 const ALString KMModelingSpecView::GetClassLabel() const
 {
-	return "Enneade modeling spec";
+	return "MLClusters modeling spec";
 }
 
 

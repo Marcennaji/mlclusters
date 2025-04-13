@@ -33,7 +33,7 @@ KMPredictorEvaluationTask::~KMPredictorEvaluationTask()
 boolean KMPredictorEvaluationTask::MasterInitialize()
 {
 
-	AddSimpleMessage("Khiops Enneade internal version is " + ALString(INTERNAL_VERSION));
+	AddSimpleMessage("MLClusters internal version is " + ALString(INTERNAL_VERSION));
 	return KWPredictorEvaluationTask::MasterInitialize();
 
 }
@@ -514,7 +514,7 @@ void KMPredictorEvaluationTask::InitializeModalitiesProbs() {
 
 const ALString KMPredictorEvaluationTask::GetTaskName() const
 {
-	return "Enneade Predictor evaluation";
+	return "MLClusters Predictor evaluation";
 }
 
 PLParallelTask* KMPredictorEvaluationTask::Create() const

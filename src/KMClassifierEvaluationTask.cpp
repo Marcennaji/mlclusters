@@ -331,7 +331,7 @@ boolean KMClassifierEvaluationTask::Evaluate(KWPredictor* predictor,
 
 const ALString KMClassifierEvaluationTask::GetTaskName() const
 {
-	return "Enneade Classifier evaluation";
+	return "MLClusters Classifier evaluation";
 }
 
 PLParallelTask* KMClassifierEvaluationTask::Create() const
@@ -354,7 +354,7 @@ boolean KMClassifierEvaluationTask::MasterInitialize()
 	require(masterInstanceEvaluationSampler == NULL);
 	require(evaluationInstances == NULL);
 
-	AddSimpleMessage("Khiops Enneade internal version is " + ALString(INTERNAL_VERSION));
+	AddSimpleMessage("MLClusters internal version is " + ALString(INTERNAL_VERSION));
 
 	// Memorisation de la specialisation du rapport d'evaluation demandeur
 	classifierEvaluation = cast(KWClassifierEvaluation*, predictorEvaluation);

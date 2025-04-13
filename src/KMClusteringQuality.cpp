@@ -441,7 +441,7 @@ void KMClusteringQuality::ComputeARIByClasses(const KMCluster* globalCluster, co
 void KMClusteringQuality::ComputeNormalizedMutualInformationByClusters(const KMCluster* globalCluster, const ObjectArray& oaTargetAttributeValues) {
 
 	/*
-	Cf. description fonctionnelle d'Enneade v8, paragraphe "Crit�re Normalized Mutual Information"
+	Cf. description fonctionnelle d'MLClusters v8, paragraphe "Crit�re Normalized Mutual Information"
 
 	Soit K = nombre de clusters et C le nombre de classes
 
@@ -569,7 +569,7 @@ void KMClusteringQuality::ComputeNormalizedMutualInformationByClusters(const KMC
 void KMClusteringQuality::ComputeNormalizedMutualInformationByClasses(const KMCluster* globalCluster, const ObjectArray& oaTargetAttributeValues, const KWFrequencyTable* kwctFrequencyByPredictedClass) {
 
 	/*
-	Cf. description fonctionnelle d'Enneade v8, paragraphe "Crit�re Normalized Mutual Information"
+	Cf. description fonctionnelle d'MLClusters v8, paragraphe "Crit�re Normalized Mutual Information"
 
 	Soit K = nombre de clusters et C le nombre de classes
 

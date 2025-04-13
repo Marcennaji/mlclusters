@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 	PLParallelTask::SetSimulatedSlaveNumber(4);
 
 	std::cout << "*******COMPILATION********" << std::endl;
-	std::cout << "    Khiops Enneade    " << std::endl;
+	std::cout << "    MLClusters    " << std::endl;
 	std::cout << " VERSION ";
 	std::cout << " " << INTERNAL_VERSION << std::endl;
 	std::cout << __DATE__ << " " << __TIME__ << std::endl;
